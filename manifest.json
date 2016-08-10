@@ -4,11 +4,11 @@
   "name": "GRE Word finder",
   "description": "This extension higlights frequently asked GRE words in the pages you visit.",
   "version": "1.0",
-  "content_scripts": [
+ "content_scripts": [
     {
-        "matches": ["http://*/*", "https://*/*"],
+       "matches": ["http://*/*", "https://*/*"],
       "css": ["mystyle.css"],
-      "js": ["myscript.js"],
+      "js": ["jquery.js","myscript.js"],
       "run_at" : "document_end"
     }
   ],
@@ -17,6 +17,8 @@
   },
   "permissions": [
     "activeTab",
-    "https://ajax.googleapis.com/"
+    "https://ajax.googleapis.com/",
+      "http://*/*",
+      "https://*/*"
   ]
 }
