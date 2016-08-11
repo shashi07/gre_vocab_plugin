@@ -8,7 +8,7 @@
     {
        "matches": ["http://*/*", "https://*/*"],
       "css": ["mystyle.css"],
-      "js": ["jquery.js","myscript.js"],
+      "js": ["jquery.js","jquery.mark.min.js","myscript.js"],
       "run_at" : "document_end"
     }
   ],

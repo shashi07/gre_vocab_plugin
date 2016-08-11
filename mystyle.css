@@ -1,4 +1,4 @@
-.highlight_text_ext{
-background-color : yellow;
-
+mark{
+    background: yellow;
+    color: black;
 }
